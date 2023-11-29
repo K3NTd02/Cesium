@@ -66,7 +66,7 @@ for (let i = 0; i < flightData.length; i++) {
 // STEP 6 CODE (airplane entity)
 async function loadModel() {
   // Load the glTF model from Cesium ion.
-  const airplaneUri = await Cesium.IonResource.fromAssetId(your_asset_id);
+  const airplaneUri = await Cesium.IonResource.fromAssetId(2371579);
   const airplaneEntity = viewer.entities.add({
     availability: new Cesium.TimeIntervalCollection([ new Cesium.TimeInterval({ start: start, stop: stop }) ]),
     position: positionProperty,
